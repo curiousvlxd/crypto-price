@@ -1,0 +1,15 @@
+###
+https://localhost:3000/crypto/
+
+###
+POST https://localhost:3000/crypto/
+Content-Type: application/json
+
+{
+  "code": "Bitcoin",
+  "rate": "BTC",
+  "date": "2018-01-01"
+}
+
+###
+DELETE https://localhost:3000/crypto/6384b092f46ba3702994ff33
